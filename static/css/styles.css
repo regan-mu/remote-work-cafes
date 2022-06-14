@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#landing {
+    background: #6E6E6E;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+    overflow-y: hidden;
+}
+#landing .main {
+    padding: 3rem;
+}
+#landing .landing-img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+}
+#landing .landing-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#landing .landing-img .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+#landing .landing-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    color: white;
+    padding: 3rem;
+    border: 2px solid white;
+}
+#landing .landing-text h1 {
+    font-family: 'Montserrat-Black';
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+#landing .landing-text h3 {
+    font-size: 1.7rem;
+    color: #ECECEC;
+}
+#landing .landing-text p {
+    font-size: 1rem;
+    color: #E5E5E5;
+    margin: 0 0 2rem;
+}
+#landing .landing-text a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    background: #BCFD4C;
+}
+#landing .dots {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    bottom: -8rem;
+    right: 3rem;
+    width: 10rem;
+    height: 20rem;
+}
+#landing .dots > div {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: #BCFD4C;
+}
+

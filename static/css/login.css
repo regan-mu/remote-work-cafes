@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+
+.login {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.login .login-inner {
+    width: 50%;
+    min-height: 50%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    transform: translateY(50%);
+    border: 1px solid #CFCFCF;
+
+}
+
+
+/*------------------ Registration Form -------------------*/
+.register {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.register .register-inner {
+    width: 50%;
+    min-height: 90%;
+    padding: 3rem;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #CFCFCF;
+
+}
+/*------------------ END ---------------------------------*/
+
+/*------------------ Rating Form -------------------*/
+.rating {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.rating .rating-inner {
+    width: 50%;
+    height: 60%;
+    padding: 3rem;
+    margin: 0 auto;
+    transform: translateY(50%);
+    position: relative;
+    border: 1px solid #CFCFCF;
+}
+.rating .rating-inner h3 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 0 2rem;
+}
+/*------------------ END ---------------------------------*/
+
+/*------------------ Add Cafe Form -------------------*/
+.add {
+    position: relative;
+    padding: 2rem;
+    width: 100%;
+    height: 80vh;
+    overflow-y: hidden;
+}
+
+.add .add-inner {
+    width: 50%;
+    height: 90%;
+    padding: 2rem 3rem;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #CFCFCF;
+    overflow-y: scroll;
+}
+.add  h3 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 0 1rem;
+    font-size: 1.2rem;
+}
+/*------------------ END ---------------------------------*/
+/*-------- FORMS --------*/
+form .has-error input {
+    border: 1px solid red;
+}
+form .has-error textarea {
+    border: 1px solid red;
+}
+form .has-error label {
+    color: red;
+}
+form .help-block {
+    font-size: 0.9rem;
+    color: red;
+}

@@ -1,0 +1,27 @@
+#navigation .navbar {
+    padding: 1rem;
+}
+
+.navbar-brand img {
+   width: 4rem;
+   height: 4rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    color: #000;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #E5E5E5;
+}
+
+.navbar-nav .nav-item .nav-link.add {
+    padding: 0.5rem 1rem;
+    background: #BCFD4C;
+}
+.navbar-nav .nav-item .nav-link.add:hover {
+    color: #797979;
+}

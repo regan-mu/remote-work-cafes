@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+.cafe {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow-y: hidden;
+    padding: 3rem 0 0.5rem;
+}
+.cafe .cafe-inner {
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    padding: 0 0 1rem;
+}
+.cafe .cafe-inner .cafe-img {
+    width: 100%;
+    height: 100%;
+}
+.cafe .cafe-inner .cafe-img img {
+    width: 100%;
+    height: 70%;
+}
+.cafe .cafe-inner .cafe-img .about-cafe {
+    padding: 2rem 0 2rem;
+}
+.cafe .cafe-inner .cafe-img .about-cafe p em {
+    font-size: 0.8rem;
+}
+.cafe .cafe-inner .params {
+    padding: 0 1rem;
+}
+.cafe .cafe-inner .params hr {
+    background: #DCDCDC;
+}
+.cafe .cafe-inner .params p {
+    font-size: 1rem;
+}
+.cafe .cafe-inner .params p.name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cafe .cafe-inner .params p .fa {
+    color: gold;
+}
+.cafe .cafe-inner .params .open-close {
+    line-height: 0.7;
+}
+.cafe .cafe-inner .params .open-close p {
+    font-weight: bolder;
+}
+.cafe .cafe-inner .params .open-close span {
+    font-size: 0.9rem;
+}
+.cafe .comments {
+    width: 60%;
+}
+.cafe .comments .comment-title {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.cafe .comments .comment-content {
+    height: 40vh;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+.cafe .comments .comment-content .comment-body {
+    padding: 2rem;
+    border: 1px solid #DCDCDC;
+    margin: 0 0 0.5rem;
+    width: 90%;
+}
+.cafe .comments .comment-content .comment-body .name {
+    float: right;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+#bottom {
+    padding:  4.5rem 0 0;
+    position: relative;
+}
+
+#bottom .socials {
+    text-align: center;
+    margin-top: 3rem;
+    color: #000;
+}
+#bottom .socials .fa {
+    padding: 0 0.3rem;
+}
+#bottom .socials p {
+    font-size: 0.8rem;
+    padding: 0.2rem 0 0;
+}
+/*-------- FORMS --------*/
+form .has-error input {
+    border: 1px solid red;
+}
+form .has-error textarea {
+    border: 1px solid red;
+}
+form .has-error label {
+    color: red;
+}
+form .help-block {
+    font-size: 0.9rem;
+    color: red;
+}
